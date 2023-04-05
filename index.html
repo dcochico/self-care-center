@@ -12,18 +12,19 @@
     <main class="home-view">
       <h2 class="main-question">Which type of message?</h2>
       <section>
-        <input type="radio" id="affirmation">
+        <input type="radio" name="choice" id="affirmation">
         <label for="affirmation">affirmation</label>
-        <input type="radio" id="mantra">
+        <input type="radio" name="choice" id="mantra">
         <label for="mantra">mantra</label>
       </section>
       <section>
-        <button class="button">Receive Message</button>
+        <button type="button" id="message-button">Receive Message</button>
       </section>
       <section>
-        <p class="message">🔔</p>
+        <p id="message">🔔</p>
       </section>
     </main>
     <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="data.js"></script>
   </body>
 </html>
