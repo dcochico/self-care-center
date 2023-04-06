@@ -8,23 +8,25 @@
   <body>
     <header>
       <h1 class="header">✨ Self Care Center ✨</h1>
+      <h2 class="main-question">Which type of message?</h2>
     </header>
     <main class="home-view">
-      <h2 class="main-question">Which type of message?</h2>
-      <section>
-        <input type="radio" name="choice" id="affirmation">
-        <label for="affirmation">affirmation</label>
-        <input type="radio" name="choice" id="mantra">
-        <label for="mantra">mantra</label>
-      </section>
-      <section>
+      <section class="question-box">
+        <div class="radio-buttons">
+          <div class="button-choice">
+            <input type="radio" name="choice" id="affirmation">
+            <label for="affirmation">affirmation</label>
+          </div>
+          <div class="button-choice">
+            <input type="radio" name="choice" id="mantra">
+            <label for="mantra">mantra</label>
+          </div>
+        </div>
         <button type="button" id="message-button">Receive Message</button>
       </section>
-      <section>
+      <section class="message-box">
         <img class="bell" src="./assets/meditate.svg" alt="Bell"></img>
         <p id="message"></p>
-      </section>
-      <section>
         <button class="delete-button hidden">I don't like this message</button>
       </section>
     </main>
