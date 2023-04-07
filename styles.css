@@ -11,46 +11,58 @@ black - #000000;
     text-align: center;
 }
 
-header {
-    color: #ffffff;
-}
-
-h2 {
-    margin: 80px 0 5px 0;
-}
-
 body {
     background: linear-gradient(#134d71,#78a7c6,#f7e4bf);
     background-attachment: fixed;
 }
 
-.question-box {
+header {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 1%;
+}
+
+.home-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.question-box {
     background-color: #ffffff;
     border-radius: 10px;
-    height: 100px;
-    margin: auto;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
     width: 60%;
+    margin-bottom: 15%;
 }
 
 .radio-buttons {
+    font-style: italic;
     display: flex;
     flex-direction: row;
-    font-style: italic;
-    justify-content: space-evenly;
-}
-
-.button-choice {
-    margin-right: 0;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3%;
 }
 
 #message-button {
     background-color: #134d71;
-    border-radius: 5px;
     color: #ffffff;
-    margin: 70px;
-    width: 165px;
+    border-radius: 5px;
+    justify-content: center;
+    width: 18vw;
+    margin-bottom: 1%;
 }
 
 .message-box {
@@ -58,27 +70,42 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    font-size: x-large;
-    height: 150px;
     justify-content: center;
-    margin: 300px auto 0 auto;
+    align-items: center;
+    height: 15%;
     width: 75%;
+    position: relative;
 }
 
 img {
     height: 50%;
-    margin: 40px auto auto auto;
-    width: 25%;
+    width: 50%;
+    position: absolute;
+}
+
+#message {
+    font-style: italic;
+    font-size: x-large;
+    position: absolute;
+}
+
+.delete-box {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .delete-button {
     background-color: #134d71;
-    border-radius: 5px;
     color: #ffffff;
-    margin: 35px 0 0 255px;
-    width: 200px;
+    border-radius: 5px;
+    width: 22vw;
+    position: relative;
+    margin-bottom: 3%;
 }
 
 .hidden {
-    display: none
+    display: none;
 }
