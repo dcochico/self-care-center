@@ -12,7 +12,7 @@ In moments of struggle, it can be easy to forget your own self-worth. This app i
 5. Run `open index.html` in your terminal in order to view the project in a browser.
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-![](https://user-images.githubusercontent.com/126428377/230454932-e2306f43-c6de-42cc-b8e4-52a17335d18f.png)
+![](https://user-images.githubusercontent.com/126428377/230531123-bc34c77f-e552-44cf-8688-c34b364e90e0.png)
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
 Mod 1 Week 3. Over a day to complete.

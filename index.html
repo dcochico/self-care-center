@@ -13,11 +13,11 @@
     <main class="home-view">
       <section class="question-box">
         <div class="radio-buttons">
-          <div class="button-choice">
+          <div class="radio-choice">
             <input type="radio" name="choice" id="affirmation">
             <label for="affirmation">affirmation</label>
           </div>
-          <div class="button-choice">
+          <div class="radio-choice">
             <input type="radio" name="choice" id="mantra">
             <label for="mantra">mantra</label>
           </div>
@@ -27,7 +27,9 @@
       <section class="message-box">
         <img class="bell" src="./assets/meditate.svg" alt="Bell"></img>
         <p id="message"></p>
-        <button class="delete-button hidden">I don't like this message</button>
+        <div class="delete-box">
+          <button class="delete-button hidden">I don't like this message</button>
+        </div>
       </section>
     </main>
     <script type="text/javascript" src="main.js"></script>
